@@ -56,12 +56,17 @@ export function Hero() {
                 de Desconto na primeira compra.
               </p>
               <div className="flex mt-4">
-                <div className="w-32 hidden lg:block">
+                <div 
+                className="w-32 hidden lg:block"
+                
+                >
                   <Image
                     src={catImg}
                     alt="cat"
                     className="object-fill"
                     quality={100}
+                    priority
+                    
                   />
                 </div>
               </div>
@@ -77,6 +82,7 @@ export function Hero() {
               sizes="max-width: 768px 0vw, 50vw"
               quality={100}
               priority
+               data-aos="fade-up"
             />
           </div>
         </article>

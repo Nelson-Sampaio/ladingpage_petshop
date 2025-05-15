@@ -22,7 +22,9 @@ export function About() {
               />
             </div>
 
-            <div className="absolute w-40 h-40 rounded-lg border-3 border-white right-3 -bottom-6 overflow-hidden">
+            <div 
+            className="absolute w-40 h-40 rounded-lg border-3 border-white right-3 -bottom-6 overflow-hidden"
+            data-aos="zoom-in-left"            >
               <Image src={about2Img} alt="cat" fill quality={100} priority />
             </div>
           </div>

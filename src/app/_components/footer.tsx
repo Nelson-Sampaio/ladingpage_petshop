@@ -34,7 +34,13 @@ export function Footer() {
             {brands.map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-4 rounded-lg flex items-center justify-center"
+                className="bg-white p-4 rounded-lg flex items-center justify-center object-cover  hover:scale-110 duration-300"
+                 
+                 data-aos="zoom-in-up"
+                 data-aos-duration="1000"
+                 data-aos-easing="ease-in-out"
+                 data-aos-on-scroll="true"
+                 
               >
                 <Image
                   src={item.logo}
@@ -47,6 +53,7 @@ export function Footer() {
                     height: "auto",
                   }}
                   className="object-contain"
+                   
                 />
               </div>
             ))}
